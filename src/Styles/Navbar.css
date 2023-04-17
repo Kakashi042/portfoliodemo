@@ -1,3 +1,43 @@
-navbar{
-    color:var(primary-color)
+.navbar{
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+#links{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.icons{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    .icons{
+        display: block;
+    }
+    #links{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 1rem;
+        position: fixed;
+        top: 8%;
+        left: 100%;
+        transform: translate(50%,50%);
+        transition: 0.3s ease-in-out;
+        background-color: blue;
+        width: 100vw;
+        height: 100vh;
+    }
+    #links.active{
+        top: 50%;
+    }    
+
 }
