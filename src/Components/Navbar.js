@@ -12,18 +12,20 @@ const Navbar = () => {
         setClicked(false);
     }
 
+   
+
   return (
     <nav className='navbar' >
-       <Link to='home' spy={true} smooth={true} offset={-120} duration={500}>Prajwal</Link>
-        <ul id='links' className={clicked?'#links active':'#links'}>
+       <Link to='home' className='title' spy={true} smooth={true} offset={-120} duration={500}>Prajwal</Link>
+        <ul id='links' className={clicked?'#links active':'#links'} >
             <li>
-                <Link to='about' spy={true} smooth={true} offset={-120} duration={500}>About</Link>
+                <Link to='about' spy={true} smooth={true} offset={-75} duration={500} onClick={handle}>About</Link>
             </li>
             <li>
-                <Link to='work' spy={true} smooth={true} offset={-120} duration={500}>Works</Link>
+                <Link to='work' spy={true} smooth={true}  duration={500} onClick={handle}>Works</Link>
             </li>
             <li>
-                <Link to='contact' spy={true} smooth={true} offset={-120} duration={500}>Contact</Link>
+                <Link to='contact' spy={true} smooth={true}  duration={500} onClick={handle}>Contact</Link>
             </li>
         </ul>
         <div className='icons' onClick={handle}>
