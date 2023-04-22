@@ -1,0 +1,34 @@
+.footer{
+    background-color: #2d2e32;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0 auto;
+    bottom: 0;
+    
+}
+
+.footer span a{
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer span a:hover{
+    color: #000eee;
+}
+
+@media screen and (max-width:500px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer h4{
+        text-align: center;
+    }
+
+}

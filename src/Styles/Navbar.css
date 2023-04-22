@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: space-between;
     padding:  1rem 2rem;
-    /* min-width: 16rem; */
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    min-width: 100vw;
 }
 
 .title,
@@ -27,8 +28,10 @@
 
 .title{
     font-size: 1.7rem;
-    font-weight: 800;
+    font-weight: 1000;
 }
+
+
 
 @media only screen and (max-width:900px){
     .navbar{
@@ -39,6 +42,7 @@
         align-items: center;
         justify-content: space-between;
         padding:1rem 2rem;
+        min-width: 100vw;
     }
     .icons{
         display: block;
@@ -46,7 +50,11 @@
         right: 0; */
         z-index: 2;
     }
+    .icons i{
+        font-size: 2rem;
+    }
     #links{
+        background-color: var(--primary-color);
         display: flex;
         align-items: center;
         flex-direction: column;
