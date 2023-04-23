@@ -59,6 +59,8 @@
 body{
   font-family: 'Poppins', sans-serif;
   min-width: 16rem;
+  overflow-x: hidden;
+overflow-y: auto;
 }
 
 

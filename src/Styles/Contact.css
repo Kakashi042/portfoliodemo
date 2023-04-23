@@ -2,10 +2,13 @@
     background-color: var(--secondary-color);
 }
 
+@media screen and (max-width:900px){
 
-.contact{
-    padding: 2rem 4rem;
-    text-align: center;
+    
+    .contact{
+        padding: 2rem 4rem;
+        text-align: center;
+    }
 }
 
 .contact h2, .contact h3{
@@ -13,11 +16,11 @@
 }
 
 .contact h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .contact h3{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #147efb;
 }
 
@@ -33,4 +36,25 @@
 .contact p{
     font-weight: 500;
     color: #767676;;
+}
+
+@media screen and (min-width:901px){
+    
+    .contact{
+        text-align: center;
+        max-width: 80rem;
+        margin-inline: auto;
+        padding: 4rem;
+    }
+    
+    .contact span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .contact img{
+        margin: 2rem 1rem 2rem 4rem;
+    }
 }
