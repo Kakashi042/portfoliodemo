@@ -9,12 +9,12 @@ const Contact = () => {
         <h3>CONTACT</h3>
         <h2>Hit me up!</h2>
         <span>
-          <img src={location} alt='location'/>
+          <img src={location} alt='location' draggable='false'/>
           <div>
           <h4>Location</h4>
           <p>Bengaluru, India</p>
           </div>
-          <img src={mail} alt='mail'/>
+          <img src={mail} alt='mail' draggable='false'/>
           <div>
           <h4>Mail</h4>
           <p>prajwalmail042@gmail.com</p>

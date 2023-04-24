@@ -14,16 +14,16 @@ const Home = () => {
     <div className='hero-section'>
     <div id='home' className='home'>
       <div className='hero'>
-      <img src={hero} alt='Cactus'/>
+      <img src={hero} alt='Cactus' draggable='false'/>
       </div>
       <div className='content'>
         <h1>Front-End React Developer</h1>
         <p>Hi, I'm Prajwal. A passionate Front-End React Developer based in Bengaluru, India.</p>
         <span>
-          <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in">
+          <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/prajwal-k-72b232261" draggable='false'>
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a aria-label="github" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in">
+          <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/Kakashi042" draggable='false'>
             <i class="fa-brands fa-github"></i>
           </a>
         </span>
@@ -37,19 +37,19 @@ const Home = () => {
         <div>
         <ul>
           <li>
-            <img src={html}/>
+            <img src={html} draggable='false'/>
           </li>
           <li>
-            <img src={css}/>
+            <img src={css} draggable='false'/>
           </li>
           <li>
-            <img src={js}/>
+            <img src={js} draggable='false'/>
           </li>
           <li>
-            <img src={react}/>
+            <img src={react} draggable='false'/>
           </li>
           <li>
-            <img src={redux}/>
+            <img src={redux} draggable='false'/>
           </li>
           <li>
             <img src={sql}/>
